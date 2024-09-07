@@ -1,17 +1,27 @@
 /* style.css */
 @import url( 
-"https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); 
-  
+"https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"); 
+
+
 body { 
-    background-color: #f8f8f8; 
-    color: #333; 
-    font-family: "Roboto Mono", monospace; 
+    background-image: url(Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,monospace;
 } 
-  
+h1 { 
+    font-family:"Rubik Mono One", monospace;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center; 
+    color: #080444; 
+}
 .generator { 
-    background-color: #f5f5f5; 
-    width: 250px; 
-    margin: 150px auto; 
+    background-color: #edf3f3; 
+    width: 500px; 
+    margin: 100px auto; 
     padding: 20px; 
     border-radius: 10px; 
 } 
@@ -19,19 +29,20 @@ body {
 div.password { 
     display: grid; 
     grid-template-columns: auto min-content; 
-    border-radius: 10px; 
+    border-radius: 50px; 
     overflow: hidden; 
 } 
   
 div.password input { 
-    padding: 7px 10px; 
+    padding: 14px 20px; 
     background-color: #ddd; 
     border: 0; 
-    color: #333; 
+    color: #000000; 
+    font-size: 20px;
 } 
   
 button { 
-    background-color: #4caf50; 
+    background-color: #e88bf4; 
     color: #fff; 
     text-transform: uppercase; 
     padding: 5px 15px; 
@@ -79,7 +90,3 @@ button.generate {
     padding: 10px; 
 } 
   
-h1 { 
-    text-align: center; 
-    color: #4caf50; 
-}
